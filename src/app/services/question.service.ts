@@ -9,6 +9,6 @@ export class QuestionService {
   constructor(private http:HttpClient) { }
 
   getQuestionData(){
-    return this.http.get<any>("../../assets/data/questions2.json")
+    return this.http.get<any>("../../assets/data/question.json")
   }
 }
